@@ -1,5 +1,5 @@
-const sum = (a, b) => {
-  return a + b;
-};
-const ans = sum(3, 4);
-console.log(ans);
+const http = require("http");
+const server = http.createServer((req, res) => {
+  console.log("ritika");
+});
+server.listen(4000);
